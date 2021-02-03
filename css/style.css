@@ -124,7 +124,46 @@ border-bottom:6px solid #975688 !important;
   }
 }
 
+  @media screen and (max-width: 568px) {
+    #hero h1 {
+      font-size: 21px;
 
+    }
+    #hero p {
+      margin-top: 20px;
+      font-size: 50px;
+      line-height: 24px;
+    }
+
+    #hero .w3-bar .w3-bar-item {
+      padding:4px 10px;
+      width:auto;
+      border:none;
+      display:block;
+      font-size: 15px;
+    }
+
+    }
+    @media screen and (max-width: 480px) {
+      #hero h1 {
+        font-size: 18px;
+
+      }
+      #hero p {
+        margin-top: 20px;
+        font-size: 40px;
+        line-height: 24px;
+      }
+
+      #hero .w3-bar .w3-bar-item {
+        padding:4px 5px;
+        width:auto;
+        border:none;
+        display:block;
+        font-size: 12px;
+      }
+
+      }
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
