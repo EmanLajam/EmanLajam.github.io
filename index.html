@@ -29,7 +29,12 @@
 <body>
   <!-- ======= Hero Section ======= -->
   <!-- Header -->
-  <header id="hero" class="w3-panel w3-center w3-opacity" style="padding:128px 16px">
+  <div id="darkHeader">
+  <header id="hero" class="w3-panel w3-center w3-opacity" style="padding:128px 16px;margin: 0;">
+    <span class="mode">
+      <button id="light" style="border-radius: 50px 0px 0px 50px  ;"><img src="images/light.png"/></button>
+      <button id="dark" style="border-radius: 0 50px 50px 0;"><img src="images/dark.png"/></button>
+    </span>
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
     <h1 >WEB DEVELOPER</h1>
     <p >Eman Lajam</p>
@@ -53,8 +58,8 @@
     </div>
 </div>
   </header>
-
-
+</div>
+  <div id="darkMode">
   <main id="main">
       <!-- ======= About Section ======= -->
       <section id="about" class="abou about">
@@ -64,7 +69,7 @@
      </div>
           <div class="row" style="height:470px;" >
             <div class="col-lg-4 ">
-              <img src="images/flower22.png" class="img-fluid" alt="">
+              <img src="images/flower12.png" class="img-fluid" alt="">
             </div>
             <div class="col-lg-8 pt-4 pt-lg-0 content">
               <h4>Web Developer</h4>
@@ -235,16 +240,19 @@
   </div>
 <div class="col-md-4">
   <p style="color:red"> *The contact form not working yet </p>
-    <img src="images/flower22.png" class="img-fluid" alt="">
+    <img src="images/flower12.png" class="img-fluid" alt="">
 </div>
      </div>
 </div>
 </div>
 </section>
-</main><!-- End #main -->
+</main>
+  </div>
+  <!-- End #main -->
 
       <!-- Footer -->
-      <footer id="footer" class="w3-container w3-padding-64 w3-light-grey w3-center w3-large">
+      <div id="darkFooter">
+      <footer id="footer" class="w3-container w3-padding-64 w3-center w3-large">
         <h1> Eman Lajam </h1>
         <a href="#" class="icon"><i class="bx bxl-facebook"></i></a>
         <a href="#" class="icon"><i class="bx bxl-instagram"></i></a>
@@ -260,7 +268,7 @@
         Designed by <a style="color:#975688">Eman Lajam</a>
       </div>
       </footer>
-
+    </div>
       <a href="#" id="back" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
       <div id="preloader"></div>
 

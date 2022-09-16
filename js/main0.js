@@ -52,3 +52,29 @@ $(document).ready(function(){
     } // End if
   });
 });
+
+
+let darkBtn = document.getElementById("dark")
+let lightBtn = document.getElementById("light")
+let header = document.getElementById("darkHeader")
+
+let darkMode = document.getElementById("darkMode")
+let footer = document.getElementById("darkFooter")
+let main = document.getElementById("main")
+darkBtn.addEventListener('click', function onClick() {
+//main.scrollIntoView({behavior: 'smooth'});
+header.classList.add("darkHeader");
+
+  darkMode.classList.add("dark");
+  footer.classList.add("darkFooter");
+  
+});
+
+lightBtn.addEventListener('click', function onClick() {
+ // main.scrollIntoView({behavior: 'smooth'});
+    header.classList.remove("darkHeader");
+    darkMode.classList.remove("dark");
+    footer.classList.remove("darkFooter");
+    
+  });
+  
